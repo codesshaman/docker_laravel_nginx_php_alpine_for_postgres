@@ -1,5 +1,5 @@
 # laravel + docker configuration
-Minimal docker laravel with nginx and php-fpm without bd
+Minimal docker container image (219 MB): laravel with nginx and php-fpm without bd
 
 Your need docker and docker-compose in your operation system.
 
