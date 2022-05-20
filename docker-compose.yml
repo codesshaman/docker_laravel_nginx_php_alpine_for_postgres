@@ -6,7 +6,6 @@ services:
     volumes:
       - ./laravel:/var/www
       - ./nginx/conf.d:/etc/nginx/conf.d/
-      - ./laravel/storage/docker/log/nginx:/var/log/nginx
     ports:
       - "80:80"
     tty:  true
@@ -24,5 +23,4 @@ services:
     restart: unless-stopped
     volumes:
       - ./laravel:/var/www
-      - ./laravel/storage/docker/log/nginx:/var/log/nginx
     container_name: app
